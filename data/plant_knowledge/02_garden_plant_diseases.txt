@@ -1,0 +1,177 @@
+Plant: Tomato
+Problem: Early blight
+Symptoms: Dark brown spots with concentric rings forming a target-like pattern on lower leaves, yellowing around spots, premature leaf drop, fruit may develop dark sunken spots
+Cause: Fungal infection by Alternaria solani. Overwinters in soil debris. Spread by rain splash and overhead watering.
+Treatment: Remove infected lower leaves immediately. Apply copper-based fungicide or chlorothalonil every 7-10 days. Mulch around the base to prevent soil splash. Water at the base only. Stake plants to improve airflow.
+Recovery: Week 1-2 — fungicide slows spread. Week 3 — new growth should be clean. Existing damage is irreversible but fruit production continues.
+
+---
+
+Plant: Tomato
+Problem: Late blight
+Symptoms: Large irregular water-soaked gray-green patches on leaves, white fuzzy mold on undersides in humid weather, brown firm rot on fruit, rapid plant death
+Cause: Phytophthora infestans — an oomycete that thrives in cool wet weather (60-70°F with high humidity). Spreads rapidly by wind.
+Treatment: Remove and destroy affected plants immediately — do not compost. Apply copper fungicide to neighboring plants preventively. Avoid overhead watering. Improve spacing for airflow.
+Recovery: Late blight is often fatal to the plant. Preventive treatment of unaffected plants is the priority. Replant with resistant varieties next season.
+
+---
+
+Plant: Tomato
+Problem: Blossom end rot
+Symptoms: Dark brown or black sunken area at the bottom (blossom end) of the fruit, appears as fruit is ripening, may be leathery or water-soaked
+Cause: Calcium deficiency in the developing fruit, usually caused by inconsistent watering rather than lack of calcium in soil. Rapid growth phases also increase risk.
+Treatment: Water consistently — use drip irrigation or soaker hoses. Mulch to maintain even soil moisture. Avoid excessive nitrogen fertilizer. Add calcium supplement (gypsum or calcium chloride spray) if soil is calcium-deficient.
+Recovery: Affected fruit should be removed. New fruit will develop normally once watering is consistent — typically within 1-2 weeks.
+
+---
+
+Plant: Tomato
+Problem: Septoria leaf spot
+Symptoms: Many small circular spots (1/8 inch) with dark borders and gray centers on lower leaves, tiny black dots (pycnidia) visible in spot centers, progressive defoliation from bottom up
+Cause: Fungal infection by Septoria lycopersici. Spread by water splash and survives on plant debris.
+Treatment: Remove affected leaves. Apply fungicide (copper or chlorothalonil). Mulch to prevent splash. Stake plants. Rotate crops — do not plant tomatoes in same spot for 2 years.
+Recovery: Week 1-2 — defoliation slows with fungicide. Remaining foliage and fruit production continues.
+
+---
+
+Plant: Rose
+Problem: Black spot
+Symptoms: Circular black spots (up to 1/2 inch) on upper leaf surfaces with feathery margins, yellowing around spots, premature leaf drop, weakened plant
+Cause: Fungal infection by Diplocarpon rosae. Thrives in warm humid weather with poor air circulation. Spores spread by water.
+Treatment: Remove and destroy fallen leaves. Prune to improve air circulation. Apply fungicide (neem oil, sulfur, or myclobutanil) every 7-14 days. Water at the base only. Choose resistant varieties for future planting.
+Recovery: Week 2-3 — new growth should be spot-free. Defoliated canes will resprout. Full recovery over 4-6 weeks.
+
+---
+
+Plant: Rose
+Problem: Powdery mildew
+Symptoms: White powdery coating on leaves, buds, and stems, distorted new growth, leaves curling, reduced flowering
+Cause: Fungal infection (Podosphaera pannosa). Unlike most fungi, thrives in dry warm days with cool humid nights. Does not need free water on leaves.
+Treatment: Prune crowded canes for airflow. Spray with potassium bicarbonate solution, neem oil, or sulfur fungicide. Remove severely affected growth. Plant in full sun locations.
+Recovery: Week 1-2 — mildew stops spreading. Week 3-4 — new growth emerges clean. Flowering resumes in 4-6 weeks.
+
+---
+
+Plant: Rose
+Problem: Rose rust
+Symptoms: Orange or rust-colored pustules on undersides of leaves, yellow spots on upper leaf surface, premature leaf drop, weakened plant
+Cause: Fungal infection by Phragmidium species. Favored by cool moist spring weather.
+Treatment: Remove infected leaves immediately. Apply fungicide (myclobutanil or triticonazole). Clean up all fallen debris. Improve air circulation. Avoid overhead watering.
+Recovery: Week 2-3 — pustules dry up. Week 4 — new clean growth. Preventive spraying recommended in spring.
+
+---
+
+Plant: Cucumber
+Problem: Downy mildew
+Symptoms: Angular yellow patches on upper leaf surface bounded by veins, purplish-gray fuzzy growth on undersides, rapid leaf browning and death
+Cause: Pseudoperonospora cubensis — an oomycete spread by wind-borne spores. Thrives in cool wet weather.
+Treatment: Apply preventive fungicide (chlorothalonil or mancozeb) before symptoms appear in endemic areas. Remove infected leaves. Improve airflow between plants. Use drip irrigation.
+Recovery: Downy mildew progresses fast. Preventive treatment is key. Already-infected leaves will not recover but plant can continue fruiting if upper foliage is protected.
+
+---
+
+Plant: Cucumber
+Problem: Powdery mildew
+Symptoms: White powdery patches on upper and lower leaf surfaces, leaves yellowing and drying, reduced fruit production
+Cause: Podosphaera xanthii fungus. Favored by warm dry days and cool humid nights.
+Treatment: Spray with potassium bicarbonate, neem oil, or sulfur every 7-10 days. Remove heavily infected leaves. Provide good air circulation. Plant resistant varieties.
+Recovery: Week 1-2 — spread contained. Fruit production continues from unaffected parts.
+
+---
+
+Plant: Pepper
+Problem: Bacterial leaf spot
+Symptoms: Small water-soaked spots on leaves that turn brown with yellowish halos, spots on fruit appear as raised scab-like bumps, defoliation
+Cause: Xanthomonas campestris bacteria. Spread by rain splash, contaminated seed, and handling wet plants.
+Treatment: Remove infected plant material. Apply copper-based bactericide. Avoid working with plants when wet. Use certified disease-free seed. Rotate crops for 2-3 years.
+Recovery: Week 1-2 — new spotting slows. Fruit with spots is edible but cosmetically affected.
+
+---
+
+Plant: Pepper
+Problem: Blossom drop
+Symptoms: Flowers falling off without setting fruit, small fruit dropping, poor fruit set despite healthy plant appearance
+Cause: Temperature stress (too hot above 90°F or too cold below 55°F at night), low humidity, overwatering, excessive nitrogen fertilizer.
+Treatment: Provide shade cloth in extreme heat. Ensure consistent watering. Reduce nitrogen fertilizer and increase phosphorus. Hand-pollinate by gently shaking plants.
+Recovery: Fruit set resumes within 1-2 weeks once temperatures moderate. Next flush of flowers should set normally.
+
+---
+
+Plant: Basil
+Problem: Downy mildew
+Symptoms: Yellowing between leaf veins on upper surface, dark gray-purple fuzzy growth on undersides, leaf curling, rapid plant decline
+Cause: Peronospora belbahrii — spread by wind and seed. Thrives in cool humid conditions.
+Treatment: Remove infected plants immediately. Improve spacing and airflow. Avoid overhead watering. Plant resistant varieties (e.g., 'Amazel', 'Devotion'). Fungicides are minimally effective once established.
+Recovery: Remove affected plants entirely. Start new plants from clean seed in a different location.
+
+---
+
+Plant: Basil
+Problem: Fusarium wilt
+Symptoms: Brown streaks on stems, wilting from top down even with moist soil, stunted growth, leaf drop, plant death
+Cause: Fusarium oxysporum f. sp. basilici — soil-borne fungus that clogs vascular tissue. Persists in soil for years.
+Treatment: Remove and destroy infected plants. Do not compost. Solarize soil before replanting. Plant resistant varieties. Use sterile potting mix for container growing.
+Recovery: Fusarium wilt is fatal. Prevention through resistant varieties and clean soil is the only long-term solution.
+
+---
+
+Plant: Strawberry
+Problem: Gray mold (Botrytis)
+Symptoms: Soft light brown rot on fruit covered with gray fuzzy mold, flowers turning brown, fruit rotting before ripening
+Cause: Botrytis cinerea fungus. Thrives in cool, wet, humid conditions. Enters through wounds and flower parts.
+Treatment: Remove rotting fruit immediately. Improve air circulation by spacing plants. Mulch with straw to keep fruit off soil. Apply fungicide (captan or iprodione) during bloom. Pick ripe fruit promptly.
+Recovery: Ongoing management needed. Good sanitation reduces infection pressure within 1-2 weeks.
+
+---
+
+Plant: Strawberry
+Problem: Leaf scorch
+Symptoms: Dark purple or reddish-brown irregular patches on leaves, drying leaf margins, reduced vigor and fruit production
+Cause: Diplocarpon earlianum fungus. Spread by rain splash. Overwinters on dead leaves.
+Treatment: Remove and destroy infected leaves. Apply fungicide after renovation (mowing). Improve drainage and air circulation. Plant resistant varieties.
+Recovery: Week 2-3 — new growth emerges clean. Renovation in late summer helps manage the disease for next season.
+
+---
+
+Plant: Lettuce
+Problem: Bottom rot
+Symptoms: Slimy brown rot starting at leaves touching the soil, brown discoloration spreading upward, plant collapse
+Cause: Rhizoctonia solani fungus thriving in warm wet soil conditions with poor air circulation.
+Treatment: Improve spacing between plants. Mulch to prevent direct soil-leaf contact. Improve drainage. Remove infected plants. Rotate crops.
+Recovery: Remove affected plants. Neighboring plants benefit from improved spacing and mulching within days.
+
+---
+
+Plant: Squash / Zucchini
+Problem: Powdery mildew
+Symptoms: White powdery coating on leaf surfaces, starting on older leaves, yellowing, premature senescence, reduced fruit size
+Cause: Podosphaera xanthii or Erysiphe cichoracearum. Very common on cucurbits in late summer.
+Treatment: Spray with neem oil, potassium bicarbonate, or sulfur at first signs. Remove severely affected leaves. Plant resistant varieties. Ensure good spacing.
+Recovery: Treatment slows spread but does not eliminate existing mildew. Plant continues producing fruit from healthy tissue.
+
+---
+
+Plant: Bean
+Problem: Rust
+Symptoms: Reddish-brown pustules on undersides of leaves, yellow spots on upper surfaces, leaf drop, reduced yield
+Cause: Uromyces appendiculatus fungus. Spread by wind and water. Favored by warm humid weather.
+Treatment: Remove infected leaves. Apply sulfur-based fungicide. Improve air circulation. Avoid overhead watering. Practice crop rotation.
+Recovery: Week 2-3 — pustule production declines. Healthy new growth from top. Harvest unaffected pods normally.
+
+---
+
+Plant: Herb Garden (General)
+Problem: Damping off (seedlings)
+Symptoms: Seedlings collapse at soil line, stems appear pinched and water-soaked at base, seeds fail to germinate, white mold on soil surface
+Cause: Pythium, Rhizoctonia, or Fusarium fungi in non-sterile soil. Favored by overwatering, overcrowding, and poor air circulation.
+Treatment: Use sterile seed-starting mix. Avoid overwatering. Provide good air circulation with a small fan. Thin seedlings to prevent overcrowding. Bottom-water instead of top-watering. Apply chamomile tea as a mild antifungal.
+Recovery: Lost seedlings will not recover. Surviving seedlings can be salvaged by improving conditions immediately. Re-sow in fresh sterile mix.
+
+---
+
+Plant: Citrus (Lemon, Orange, Lime)
+Problem: Citrus canker
+Symptoms: Raised brown corky lesions on leaves, stems, and fruit surrounded by yellow halo, premature fruit drop, dieback
+Cause: Xanthomonas citri bacteria. Spread by wind-driven rain, contaminated tools, and movement of infected plant material.
+Treatment: Prune infected branches 8-12 inches below visible symptoms. Disinfect tools with 10% bleach solution. Apply copper-based bactericide preventively. Avoid working with wet plants.
+Recovery: Month 1-2 — new growth should be clean with copper protection. Severely infected trees may need removal.

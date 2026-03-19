@@ -1,0 +1,96 @@
+Plant: General
+Problem: Overwatering — how to identify and fix
+Symptoms: Yellowing leaves (lower leaves first), mushy soft stems, soil stays wet for more than 5-7 days, fungus gnats, mushy roots, mold on soil surface, foul smell from pot
+Cause: Watering too frequently, pot too large (excess soil holds water), poor drainage, heavy compacted soil, or saucer holding standing water.
+Treatment: Step 1 — Check roots. If brown and mushy, trim and repot. Step 2 — Ensure pot has drainage holes. Step 3 — Switch to well-draining soil mix. Step 4 — Water only when appropriate soil depth is dry (check with finger or moisture meter). Step 5 — Empty saucers after watering. Step 6 — Match pot size to root ball (1-2 inches larger).
+Recovery: Week 1 — let soil dry out. Week 2-3 — if roots were healthy, new growth resumes. If root rot was present, recovery takes 4-8 weeks after repotting.
+
+---
+
+Plant: General
+Problem: Underwatering — how to identify and fix
+Symptoms: Dry crispy leaf edges and tips, wilting that improves after watering, soil pulling away from pot edges, extremely lightweight pot, slow growth, dropping lower leaves
+Cause: Insufficient watering frequency, soil become hydrophobic (repels water), root-bound plant drying out fast, or plant in very bright light without increased watering.
+Treatment: Step 1 — Water thoroughly until it drains from the bottom (if soil is hydrophobic, soak pot in water for 20-30 minutes). Step 2 — Set a watering schedule based on soil moisture, not calendar. Step 3 — If root-bound, repot into slightly larger pot. Step 4 — Increase watering frequency in summer and decrease in winter.
+Recovery: Wilting recovers within hours to 1 day. Crispy leaves will not recover — trim them. New healthy growth within 2-3 weeks.
+
+---
+
+Plant: General
+Problem: Root bound plant
+Symptoms: Roots circling at bottom of pot or growing out of drainage holes, water running straight through without soaking in, plant drying out very quickly after watering, stunted growth despite fertilizing, top-heavy and tipping over
+Cause: Plant has outgrown its container. Roots have nowhere to grow and cannot absorb nutrients efficiently.
+Treatment: Repot into a container 1-2 inches larger in diameter. Gently loosen the root ball — tease apart circling roots. If severely matted, make 3-4 vertical cuts 1/4 inch deep on the root ball sides to encourage outward growth. Use fresh potting mix appropriate for the species.
+Recovery: Week 1 — transplant shock possible (mild wilting). Week 2-3 — roots establish in new soil. Month 1-2 — vigorous new growth.
+
+---
+
+Plant: General
+Problem: Poor drainage causing waterlogged soil
+Symptoms: Soil stays soggy for more than a week, green algae on soil surface, mushy plant base, root rot, fungus gnats
+Cause: Pot without drainage holes, heavy clay soil, compacted soil, pot sitting in saucer of water, or pot too large for the root system.
+Treatment: Ensure every pot has drainage holes. Use well-draining soil mix (add perlite, orchid bark, or coarse sand to heavy mixes). Use pot size proportional to root ball. Empty saucers 30 minutes after watering. Consider terracotta pots which breathe and dry faster than plastic.
+Recovery: Improvement is immediate with drainage correction. Root rot recovery takes 4-8 weeks.
+
+---
+
+Plant: General
+Problem: Salt buildup in soil
+Symptoms: White crusty deposits on soil surface and pot exterior (especially terracotta), brown leaf tips and margins, wilting despite moist soil, stunted growth
+Cause: Accumulated mineral salts from fertilizer, hard tap water, or slow-release fertilizer granules. Salts concentrate as water evaporates.
+Treatment: Flush soil by running 4-5 times the pot volume of water through it (water slowly and let drain completely). Scrape visible white crust from soil surface. Reduce fertilizer concentration (use half strength). Switch to filtered water if source is very hard. Repot with fresh soil if buildup is severe.
+Recovery: Week 1 — flushing provides immediate root relief. Week 2-3 — new growth improves. Repeat flushing monthly if water is hard.
+
+---
+
+Plant: General
+Problem: Hydrophobic soil — water sitting on surface
+Symptoms: Water pools on soil surface instead of soaking in, water runs down the sides between soil and pot wall, soil feels dry in center even after watering, extremely dry lightweight soil
+Cause: Peat-based soil that has dried out completely becomes hydrophobic (water-repellent). Common after extended drought or neglect.
+Treatment: Bottom-water by placing pot in basin of water for 20-30 minutes until surface is moist. Add a few drops of dish soap to water (acts as surfactant). For permanent fix, mix in coco coir (retains moisture better than peat when re-wet). Repot with fresh mix if soil is severely degraded.
+Recovery: Immediate improvement after bottom-watering. Soil rewettability improves after 2-3 thorough soakings.
+
+---
+
+Plant: Succulents and Cacti
+Problem: Overwatering rot
+Symptoms: Translucent jelly-like leaves, leaves falling off at slight touch, black or brown mushy stem base, stem collapsing
+Cause: Succulents store water in leaves and stems — overwatering causes cells to burst. Rot spreads rapidly through the plant.
+Treatment: If stem is still firm above the rot, cut above the rot line with a sterile blade. Let the cutting callous for 3-5 days in dry air. Plant in bone-dry cactus mix. Do not water for 1-2 weeks after planting. Save any healthy leaves for leaf propagation.
+Recovery: Week 1-2 — cutting begins rooting. Week 3-4 — gently tug to check rooting. Month 2-3 — new growth resumes. Leaf propagation takes 4-8 weeks for new plantlets.
+
+---
+
+Plant: General (Houseplants)
+Problem: Choosing the right pot and soil
+Symptoms: Recurring overwatering or underwatering issues, persistent root rot, plant not thriving despite correct care
+Cause: Mismatched pot material, size, or soil type for the specific plant's needs.
+Treatment: Guidelines by plant type — Tropical foliage (Monstera, Philodendron, Pothos): chunky aroid mix (bark, perlite, peat/coir), pot with drainage, 1-2 inches larger than root ball. Succulents and cacti: fast-draining gritty mix (50% mineral), terracotta pots for breathability. Orchids: bark-based mix in clear pots with ventilation holes. African violets: light peat-based mix in shallow pots. Ferns: moisture-retentive mix with extra peat, plastic pots.
+Recovery: N/A — preventive guidance.
+
+---
+
+Plant: General
+Problem: Watering schedule confusion
+Symptoms: Plant cycles between overwatering and underwatering stress, inconsistent soil moisture, owner unsure when to water
+Cause: Relying on calendar-based watering instead of checking soil moisture. Every plant's watering needs vary with season, light, temperature, humidity, pot size, and soil type.
+Treatment: Use the finger test — insert finger 1-2 inches into soil. If dry at that depth, water. If moist, wait. Use a moisture meter for deeper pots. For succulents, wait until soil is bone dry. For tropical plants, water when top 1-2 inches are dry. Water less in winter (lower light = less water use). Water more in summer, when root-bound, or in terracotta.
+Recovery: N/A — ongoing care guidance. Consistent moisture checking prevents 90% of houseplant problems.
+
+---
+
+Plant: General
+Problem: Root damage from repotting
+Symptoms: Wilting, leaf drop, yellowing after repotting, plant declining for weeks after transplant
+Cause: Aggressive root disturbance during repotting, breaking healthy roots, not watering after repotting, or repotting during dormancy.
+Treatment: After repotting, water thoroughly to settle soil around roots. Place in indirect light for 1-2 weeks (lower light stress). Do not fertilize for 4-6 weeks. Maintain consistent moisture without waterlogging. Use mycorrhizal inoculant to help root establishment.
+Recovery: Week 1-2 — worst of wilting and drop occurs. Week 3-4 — roots establish, decline stops. Month 2 — new growth resumes. Some species (Ficus, Alocasia) are dramatic droppers but recover fully.
+
+---
+
+Plant: General
+Problem: Stem rot from soil contact
+Symptoms: Stem turning brown or black at the soil line, soft mushy tissue at the base, plant toppling, lower leaves yellowing and dropping rapidly
+Cause: Stems buried too deeply in soil during potting, soil piled against stem, or chronic overwatering keeping the stem base perpetually wet. Fungal and bacterial pathogens enter through the softened tissue.
+Treatment: If caught early, remove soil from around the stem base — create a slight gap so the stem is above soil level. Remove mushy tissue. Apply cinnamon or sulfur powder as antifungal. If stem is severely compromised, take healthy cuttings above the rot line and propagate. Repot at the correct depth.
+Recovery: If caught early with only surface damage, the stem callouses within 1-2 weeks. If cuttings are needed, rooting takes 2-4 weeks depending on species.

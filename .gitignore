@@ -45,5 +45,4 @@ data/logs/*.json
 htmlcov/
 
 __test__/
-data/plant_knowledge/
 .streamlit/

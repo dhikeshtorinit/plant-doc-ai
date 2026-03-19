@@ -1,0 +1,132 @@
+Plant: General
+Problem: Nitrogen deficiency
+Symptoms: Older lower leaves turning uniformly pale green to yellow, stunted growth, smaller than normal leaves, thin weak stems, reduced flowering
+Cause: Insufficient nitrogen in soil due to depletion, leaching from overwatering, or poor-quality soil. Nitrogen is mobile in the plant — deficiency shows in old leaves first as nitrogen is redirected to new growth.
+Treatment: Apply balanced liquid fertilizer (e.g., 10-10-10) at recommended rate. For organic options, use fish emulsion, blood meal, or composted manure. Top-dress with compost. Avoid over-correcting — excess nitrogen causes leggy growth and reduced flowering.
+Recovery: Week 1 — yellowing stops progressing. Week 2-3 — new growth returns to healthy green. Already-yellowed leaves will not revert.
+
+---
+
+Plant: General
+Problem: Phosphorus deficiency
+Symptoms: Dark green or purplish tint on leaves (especially undersides and stems), stunted growth, poor root development, reduced flowering and fruiting, old leaves may develop brown patches
+Cause: Low phosphorus in soil, cold soil temperatures (phosphorus is less available below 55°F), or high pH soil locking up phosphorus.
+Treatment: Apply phosphorus-rich fertilizer (bone meal, rock phosphate, or high-P liquid fertilizer). Ensure soil pH is between 6.0-7.0 for optimal phosphorus availability. Warm soil before planting in spring.
+Recovery: Week 2-3 — purple discoloration stops in new growth. Month 1-2 — root development and flowering improve.
+
+---
+
+Plant: General
+Problem: Potassium deficiency
+Symptoms: Brown scorching on leaf margins starting with older leaves, weak stems, poor fruit quality, increased susceptibility to diseases and cold
+Cause: Depleted soil, excessive leaching, or sandy soil that doesn't retain potassium well.
+Treatment: Apply potash or potassium sulfate fertilizer. Use wood ash as an organic source (also raises pH). Banana peel fertilizer provides moderate potassium. Mulch to reduce leaching.
+Recovery: Week 2-3 — marginal scorch stops progressing. Month 1 — overall plant vigor improves.
+
+---
+
+Plant: General
+Problem: Iron deficiency (Iron chlorosis)
+Symptoms: Young new leaves turning yellow while veins remain distinctly green (interveinal chlorosis), stunted new growth, leaves may become almost white in severe cases
+Cause: Iron is immobile in the plant — deficiency shows in newest growth first. Often caused by high soil pH (above 7.0) making iron unavailable, overwatering, or poor drainage rather than actual lack of iron in soil.
+Treatment: Apply chelated iron supplement (Fe-EDDHA is most effective in alkaline soil). Lower soil pH with sulfur or acidifying fertilizer for acid-loving plants. Improve drainage. Foliar iron spray provides temporary relief within days.
+Recovery: Week 1 — foliar spray greens existing leaves. Week 2-3 — new growth emerges green with soil treatment. Underlying pH issue needs long-term management.
+
+---
+
+Plant: General
+Problem: Magnesium deficiency
+Symptoms: Interveinal chlorosis on older leaves (similar to iron deficiency but on old leaves instead of new), leaves may curl upward, reddish-purple tints on undersides
+Cause: Leached from soil by overwatering, acidic soil conditions, or excess potassium competing for uptake.
+Treatment: Apply Epsom salt (magnesium sulfate) — dissolve 1 tablespoon per gallon of water and apply as soil drench or foliar spray. Add dolomitic lime if soil is acidic. Reduce excessive potassium fertilization.
+Recovery: Week 1-2 — foliar spray shows improvement in 48 hours. Week 3-4 — soil-applied magnesium corrects systemic deficiency.
+
+---
+
+Plant: General
+Problem: Calcium deficiency
+Symptoms: Distorted curling new growth, tip burn on young leaves, blossom end rot on fruit (tomatoes, peppers), stunted root growth, weakened cell walls
+Cause: Inconsistent watering preventing calcium transport, very acidic soil, or actual low calcium in soil. Calcium moves passively with water through the plant.
+Treatment: Maintain consistent watering to enable calcium transport. Apply gypsum (calcium sulfate) which adds calcium without changing pH. Add lime (calcium carbonate) if soil is acidic. Foliar calcium sprays help for fruit crops.
+Recovery: Week 1-2 — new growth normalizes with consistent watering. Fruit crops need 2-3 weeks for new unaffected fruit to develop.
+
+---
+
+Plant: General
+Problem: Sunburn / Light stress
+Symptoms: White or bleached patches on leaves, brown crispy burns (not on edges), faded washed-out leaf color, scorched patches on side facing light source
+Cause: Excessive direct sunlight, especially when a plant is moved abruptly from low light to full sun. UV damage destroys chlorophyll.
+Treatment: Move to indirect bright light immediately. Gradually acclimate to brighter conditions over 2 weeks (increase exposure by 1 hour per day). Remove severely scorched leaves. Ensure adequate watering — stressed plants need more water.
+Recovery: Sunburn damage on leaves is permanent. New leaves will grow normally in correct light. Full recovery depends on species — typically 3-6 weeks for new foliage.
+
+---
+
+Plant: General
+Problem: Cold damage / Frost injury
+Symptoms: Water-soaked translucent patches on leaves, blackened leaf tips, mushy stems, wilting, leaf drop, damage appears suddenly after cold exposure
+Cause: Temperatures below the plant's tolerance causing ice crystal formation in cells, rupturing cell membranes. Tropical houseplants can be damaged below 50°F.
+Treatment: Move indoors or to warmer location. Do not prune damaged tissue immediately — wait 1-2 weeks to assess extent of damage. Water sparingly. Do not fertilize until recovery is evident. Prune dead tissue once new growth confirms which stems survived.
+Recovery: Week 1-2 — extent of damage becomes clear. Week 3-4 — new growth from surviving stems. Severely damaged plants may take months to recover or may not survive.
+
+---
+
+Plant: General
+Problem: Heat stress
+Symptoms: Wilting during hot afternoons even with moist soil, leaf curling (rolling inward), scorched leaf margins, flower and bud drop, bolting (premature flowering) in vegetables
+Cause: Temperatures exceeding the plant's optimal range, often combined with intense sun and dry air.
+Treatment: Provide shade cloth (30-50% shade). Mulch to keep roots cool. Water deeply in early morning. Mist foliage in extreme heat. Avoid fertilizing during heat waves. Move container plants to afternoon shade.
+Recovery: Plants recover within 24-48 hours of temperature relief. Wilting that doesn't recover overnight indicates root problems, not just heat stress.
+
+---
+
+Plant: General (Houseplants)
+Problem: Low humidity damage
+Symptoms: Brown crispy leaf edges and tips, leaf curling, flower buds drying before opening, increased spider mite activity, static-prone leaves
+Cause: Indoor humidity below 30-40%, especially during winter heating season. Tropical plants evolved for 50-80% humidity.
+Treatment: Group plants together (transpiration creates local humidity). Use a humidifier. Place on pebble trays with water. Mist daily (temporary relief only). Move away from heating vents. Terrariums for humidity-loving species.
+Recovery: Brown edges will not revert. New leaves will grow healthy within 2-4 weeks with improved humidity. Aim for 50-60% for most tropical houseplants.
+
+---
+
+Plant: General
+Problem: Overfertilization / Fertilizer burn
+Symptoms: Brown burnt leaf tips and margins, white crust on soil surface (salt buildup), wilting despite moist soil, root damage, stunted or distorted growth
+Cause: Excess mineral salts from fertilizer accumulate in soil and damage roots through osmotic stress. Slow-release granules can overdose in hot weather.
+Treatment: Flush soil thoroughly — run 4-5 times the pot volume of water through the soil to leach salts. Remove white crust from soil surface. Do not fertilize for 4-6 weeks. Resume at half the previous concentration. Use organic fertilizers which are less likely to burn.
+Recovery: Week 1-2 — wilting resolves after flushing. Week 3-4 — new growth resumes. Root damage takes 4-6 weeks to repair.
+
+---
+
+Plant: General (Houseplants)
+Problem: Drafts and temperature fluctuations
+Symptoms: Sudden leaf drop (especially Ficus species), yellowing, brown spots, stunted growth, wilting on the side facing the draft
+Cause: Cold drafts from windows, doors, or air conditioning, or hot drafts from heating vents. Plants prefer stable temperatures.
+Treatment: Move away from drafty locations. Keep 3-4 feet from exterior doors and single-pane windows in winter. Block direct airflow from heating and cooling vents. Use curtains as temperature buffers.
+Recovery: Week 1-2 — leaf drop ceases. Week 3-4 — new growth resumes. Ficus species may take 4-6 weeks to stabilize.
+
+---
+
+Plant: General
+Problem: Transplant shock
+Symptoms: Wilting after repotting, leaf drop, yellowing, stunted growth, plant appears worse after being repotted
+Cause: Root disturbance during repotting, sudden change in soil type, overpotting (pot too large), or repotting at wrong time of year.
+Treatment: Water thoroughly after repotting but then let soil approach dryness before watering again. Place in slightly lower light for 1-2 weeks. Do not fertilize for 4-6 weeks. Avoid additional stress (moving, pruning). Repot during active growing season when possible.
+Recovery: Week 1-2 — wilting subsides. Week 2-4 — roots establish in new soil. Month 1-2 — normal growth resumes.
+
+---
+
+Plant: General
+Problem: Edema (Oedema)
+Symptoms: Raised corky bumps or blisters on undersides of leaves, water-soaked spots, bumps turn brown and corky over time
+Cause: Plant absorbs water faster than it can transpire, causing cells to burst. Common in overwatered plants in high humidity with low light and poor airflow.
+Treatment: Reduce watering. Improve air circulation with a fan. Increase light to promote transpiration. Ensure well-draining soil. Reduce humidity if excessive.
+Recovery: Existing bumps are permanent but cosmetic. New leaves grow without edema once conditions are corrected — typically within 2-3 weeks.
+
+---
+
+Plant: General
+Problem: Chlorine and fluoride toxicity from tap water
+Symptoms: Brown leaf tips (especially on Dracaena, Spider Plant, Prayer Plant), margins browning, leaf tip necrosis progressing inward
+Cause: Municipal water treatment chemicals — chlorine and fluoride — are toxic to sensitive species at normal tap water concentrations.
+Treatment: Use filtered, distilled, or rainwater for sensitive species. Alternatively, fill watering can and let stand uncovered for 24 hours (allows chlorine to dissipate — but not fluoride). For fluoride-sensitive plants, distilled water is the only solution. Avoid perlite in soil (contains fluoride).
+Recovery: Damage on existing leaves is permanent. New growth will be tip-burn free with clean water.

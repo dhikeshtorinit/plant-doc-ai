@@ -1,0 +1,123 @@
+Plant: General (Houseplants and Garden)
+Problem: Spider mites
+Symptoms: Fine webbing on undersides of leaves and between branches, tiny dots (stippling) on leaf surfaces, yellowing, bronzing, leaf drop, very tiny moving dots visible with magnifying glass
+Cause: Tetranychus urticae and related species. Thrive in hot, dry conditions. Populations explode rapidly — a generation every 1-2 weeks.
+Treatment: Spray plants with strong water jet to dislodge mites. Apply insecticidal soap or neem oil every 5-7 days for at least 3 consecutive weeks (to break the life cycle). Increase humidity around the plant. Isolate affected plants immediately. For severe infestations, use miticide (abamectin or bifenthrin).
+Recovery: Week 1-2 — population decreases. Week 3 — webbing clears. Week 4 — new growth comes in undamaged. Continue monitoring for 4 weeks after last sighting.
+
+---
+
+Plant: General (Houseplants)
+Problem: Mealybugs
+Symptoms: White cotton-like masses in leaf axils, on stems, and undersides of leaves, sticky residue (honeydew) on leaves and surfaces below, sooty mold (black coating) on honeydew, stunted distorted new growth
+Cause: Mealybug infestation (Pseudococcidae family). Feed on plant sap. Females produce protective waxy coating. Spread by contact and new plant introductions.
+Treatment: Dab individual mealybugs with a cotton swab dipped in 70% rubbing alcohol. Spray entire plant with insecticidal soap or neem oil. Repeat every 7 days for 4 cycles minimum. Check root zone — root mealybugs are common and often missed. For root mealybugs, drench soil with systemic insecticide (imidacloprid).
+Recovery: Week 2-3 — visible populations decline. Week 4-6 — sticky residue stops. Full eradication takes 6-8 weeks due to hidden eggs.
+
+---
+
+Plant: General (Houseplants)
+Problem: Scale insects
+Symptoms: Brown or tan bump-like shells on stems and leaf undersides, sticky honeydew, yellowing leaves, sooty mold, stunted growth
+Cause: Armored or soft scale insects that attach to plant tissue and feed on sap. Often introduced on new plants.
+Treatment: Scrape off visible scales with a soft brush or fingernail. Apply horticultural oil to smother remaining scales. Spray with neem oil or insecticidal soap every 7-10 days. For heavy infestations, use systemic insecticide. Prune heavily infested branches.
+Recovery: Week 2-3 — old scale shells remain but new ones stop appearing. Week 4-6 — plant vigor returns. Dead scale shells can be gently removed.
+
+---
+
+Plant: General (Houseplants)
+Problem: Fungus gnats
+Symptoms: Tiny black flies hovering around soil surface and windows, small white larvae visible in top inch of soil, seedling damage, general poor growth in severe infestations
+Cause: Bradysia species larvae feed on fungi in moist soil and occasionally on fine roots. Adults are a nuisance but harmless. Thrive in consistently moist overwatered soil.
+Treatment: Let top 1-2 inches of soil dry completely between waterings. Apply Bti (Bacillus thuringiensis israelensis) mosquito dunks dissolved in watering can. Top-dress soil with 1/2 inch of sand or diatomaceous earth to prevent egg-laying. Yellow sticky traps catch adults.
+Recovery: Week 1 — adult population decreases with sticky traps. Week 2-3 — larvae die off as soil dries and Bti takes effect. Week 4 — gnat-free.
+
+---
+
+Plant: General (Houseplants)
+Problem: Thrips
+Symptoms: Silver or bronze streaks on leaves, tiny black dots (frass) on leaves, distorted or curled new growth, flower buds that fail to open or are discolored, very tiny slender insects visible on leaves
+Cause: Various Thrips species that rasp leaf surfaces and suck cell contents. Some species transmit plant viruses.
+Treatment: Spray with spinosad-based insecticide every 5-7 days for 3 weeks. Blue sticky traps are more effective than yellow for monitoring thrips. Apply neem oil as a systemic drench. Remove heavily damaged leaves. Isolate affected plants.
+Recovery: Week 1-2 — new streaking stops. Week 3-4 — new growth emerges undamaged. Continue monitoring with sticky traps for 4 weeks.
+
+---
+
+Plant: General (Houseplants)
+Problem: Aphids
+Symptoms: Clusters of small soft-bodied insects (green, black, brown, or pink) on new growth and undersides of leaves, sticky honeydew, curled distorted new leaves, sooty mold
+Cause: Aphid species (Aphididae) that feed on phloem sap. Reproduce extremely rapidly — parthenogenesis means one aphid becomes a colony in days.
+Treatment: Blast off with water spray. Apply insecticidal soap or neem oil directly to colonies. Introduce ladybugs outdoors. Prune heavily infested growth tips. Repeat treatment every 5-7 days until clear.
+Recovery: Week 1 — colony size decreases dramatically. Week 2 — new growth emerges clean. Easy to control if caught early.
+
+---
+
+Plant: General (Houseplants)
+Problem: Whiteflies
+Symptoms: Tiny white flying insects that scatter when plant is disturbed, found on undersides of leaves, sticky honeydew, yellowing, leaf drop, sooty mold
+Cause: Whitefly species (Aleyrodidae) that feed on sap from leaf undersides. Common on hibiscus, poinsettia, citrus, and herbs.
+Treatment: Yellow sticky traps near plants. Spray undersides of leaves with insecticidal soap or neem oil. Apply systemic insecticide (imidacloprid) for persistent infestations. Remove lower yellowed leaves. Repeat foliar sprays every 5-7 days.
+Recovery: Week 1-2 — adult population drops. Week 3-4 — egg cycle breaks. Full control within 4-6 weeks of consistent treatment.
+
+---
+
+Plant: General (Outdoor Gardens)
+Problem: Slugs and snails
+Symptoms: Irregular ragged holes in leaves (not on edges like caterpillars), slime trails visible on foliage and soil, damage worst on young tender growth, feeding primarily at night
+Cause: Gastropod mollusks that feed on soft plant tissue. Thrive in moist, cool, shaded environments.
+Treatment: Hand-pick at night with a flashlight. Set beer traps (shallow containers sunk into soil). Apply iron phosphate bait (pet-safe). Remove debris and mulch near tender plants. Copper tape around pots deters slugs.
+Recovery: Damage stops immediately once population is controlled. New growth replaces damaged leaves within 1-2 weeks.
+
+---
+
+Plant: General (Outdoor Gardens)
+Problem: Japanese beetles
+Symptoms: Skeletonized leaves (only veins remain), chewed flowers and buds, brown patches in nearby lawn (from grub larvae)
+Cause: Popillia japonica adults feed on foliage of over 300 plant species. Larvae (grubs) feed on grass roots.
+Treatment: Hand-pick adults into soapy water in early morning when sluggish. Apply milky spore or beneficial nematodes (Heterorhabditis bacteriophora) to lawn for grub control. Neem oil deters feeding. Avoid Japanese beetle traps near garden — they attract more beetles than they catch.
+Recovery: Week 1-2 — hand-picking reduces damage immediately. Season-long — grub treatment takes effect next season. Plants regrow damaged foliage within 3-4 weeks.
+
+---
+
+Plant: General (Outdoor Gardens)
+Problem: Caterpillars and hornworms
+Symptoms: Large irregular holes chewed in leaves, defoliation, dark green or black droppings (frass) on leaves and below plant, visible caterpillars
+Cause: Various moth and butterfly larvae. Tomato hornworms (Manduca quinquemaculata) are among the most destructive for garden vegetables.
+Treatment: Hand-pick caterpillars. Apply Bt (Bacillus thuringiensis var. kurstaki) spray — organic and specific to caterpillars. Encourage natural predators (parasitic wasps, birds). Floating row covers for prevention.
+Recovery: Bt kills caterpillars within 1-3 days. Defoliated plants regrow within 2-3 weeks if growing season remains.
+
+---
+
+Plant: Succulents and Cacti
+Problem: Mealybug infestation on roots
+Symptoms: Plant not growing despite good conditions, white fuzzy masses visible when unpotting, soil surface may show white deposits, plant slowly declining
+Cause: Root mealybugs (Rhizoecus species) feed on roots underground, invisible without unpotting.
+Treatment: Unpot plant. Wash roots thoroughly under running water. Soak roots in diluted systemic insecticide (imidacloprid) for 15 minutes. Let roots dry, then repot in completely fresh soil in a clean pot. Discard old soil.
+Recovery: Week 2-3 — plant stabilizes. Month 1-2 — new root growth and visible above-ground improvement. Re-check roots after 2 months.
+
+---
+
+Plant: General (Houseplants)
+Problem: Spider mite on indoor plants during winter
+Symptoms: Yellow stippling on leaves, fine webbing especially near where leaves meet stems, leaf drop, plants near heating vents most affected
+Cause: Dry indoor heating in winter creates ideal conditions for spider mite explosions. Low humidity and warm dry air lets populations skyrocket.
+Treatment: Increase humidity with humidifiers. Wipe leaves regularly with damp cloth. Spray with neem oil or insecticidal soap every 5 days. Mist plants daily during heating season. Keep plants away from direct heat sources.
+Recovery: Week 1-2 — population decreases. Week 3 — with consistent treatment, mites eliminated. Maintain humidity all winter to prevent reoccurrence.
+
+---
+
+Plant: Citrus (Indoor)
+Problem: Citrus leafminer
+Symptoms: Serpentine silvery trails inside leaves, distorted and curled new growth, leaves twisted, small caterpillar visible inside leaf tissue
+Cause: Phyllocnistis citrella moth larvae that mine through leaf tissue. Primarily affects new growth flushes.
+Treatment: Remove heavily affected leaves. Apply spinosad spray to new growth flushes. Neem oil as preventive on emerging leaves. Avoid excessive nitrogen that promotes flushes of tender growth. Parasitic wasps (Ageniaspis citricola) provide biological control.
+Recovery: Damaged leaves do not recover but can still photosynthesize. New flushes treated with spinosad will emerge clean. Takes 2-3 growth cycles to fully control.
+
+---
+
+Plant: General (Houseplants)
+Problem: Springtails
+Symptoms: Tiny white or gray jumping insects on soil surface and in saucers, visible when watering, no direct plant damage, often confused with fungus gnats
+Cause: Collembola species feed on decaying organic matter and fungi in soil. Harmless to plants but indicate consistently moist soil.
+Treatment: Springtails are not harmful and actually beneficial decomposers. If cosmetically bothersome, allow soil to dry more between waterings. Reduce organic mulch on soil surface. They will self-regulate as moisture decreases.
+Recovery: Not a real pest — no treatment needed. Population decreases as soil dries.

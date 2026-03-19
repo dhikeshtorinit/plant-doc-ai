@@ -1,0 +1,231 @@
+Plant: Monstera deliciosa
+Problem: Overwatering and root rot
+Symptoms: Yellow leaves starting from lower foliage, mushy brown-black roots, soft stem base, soil stays wet for days, foul smell from soil
+Cause: Excess water deprives roots of oxygen. Fungal pathogens (Pythium, Phytophthora) attack weakened roots.
+Treatment: Remove from pot. Trim all black or mushy roots with sterile scissors. Let roots air-dry for 2-4 hours. Repot in fresh well-draining aroid mix (bark, perlite, peat). Water only when top 2 inches of soil are dry. Ensure pot has drainage holes.
+Recovery: Week 1 — yellowing should stop spreading. Week 2-3 — new root growth begins. Week 4-6 — new leaf unfurling resumes.
+
+---
+
+Plant: Monstera deliciosa
+Problem: Underwatering
+Symptoms: Brown dry crispy leaf edges, curling inward leaves, soil pulling away from pot edges, drooping that worsens over days
+Cause: Insufficient water causes cell turgor loss. Older leaves sacrifice moisture first.
+Treatment: Water thoroughly until water drains from the bottom. Soak the pot in a basin for 15-20 minutes if soil is hydrophobic. Establish a consistent watering schedule. Use a moisture meter for accuracy.
+Recovery: Week 1 — drooping resolves within 24-48 hours. Week 2 — crispy edges will not heal but new leaves will emerge healthy.
+
+---
+
+Plant: Monstera deliciosa
+Problem: Bacterial leaf spot
+Symptoms: Dark brown or black spots with yellow halos, spots appear water-soaked, lesions spread rapidly in humid conditions
+Cause: Pseudomonas cichorii or Xanthomonas bacteria, spread by water splash and contaminated tools.
+Treatment: Remove all affected leaves immediately with sterile tools. Avoid misting. Improve air circulation with a fan. Isolate from other plants. Apply copper-based bactericide if spreading. Disinfect tools between cuts.
+Recovery: Week 1-2 — no new spots should appear. Week 3-4 — healthy new growth resumes.
+
+---
+
+Plant: Pothos (Epipremnum aureum)
+Problem: Root rot
+Symptoms: Yellowing leaves starting from the base, wilting despite moist soil, mushy brown roots, foul odor from the soil
+Cause: Overwatering combined with poor drainage. Pythium and Phytophthora fungal infections thrive in saturated soil.
+Treatment: Unpot and trim all rotted roots. Propagate healthy stem cuttings in water if root damage is severe. Repot survivors in fresh soil with perlite. Reduce watering frequency. Ensure drainage holes.
+Recovery: Week 1 — stem cuttings root in water within 7-10 days. Week 2-3 — transplanted cuttings establish. Week 4 — new leaf growth.
+
+---
+
+Plant: Pothos (Epipremnum aureum)
+Problem: Leaf spot disease
+Symptoms: Brown spots with yellow borders on leaves, spots enlarge over time, sometimes with concentric ring patterns
+Cause: Fungal pathogens (Rhizoctonia, Phytophthora) or bacterial infection from overwatering and poor air circulation.
+Treatment: Remove affected leaves. Reduce watering. Improve ventilation. Apply neem oil spray every 7 days as preventive. Avoid getting water on foliage.
+Recovery: Week 1-2 — spotting stops spreading. Week 3 — new growth comes in clean.
+
+---
+
+Plant: Fiddle Leaf Fig (Ficus lyrata)
+Problem: Bacterial infection
+Symptoms: Dark brown irregular spots on leaves, spots may appear water-soaked or have yellow margins, dropping lower leaves, spots spread from bottom up
+Cause: Bacterial pathogens spread by water on leaves, poor air circulation, and high humidity.
+Treatment: Remove all infected leaves at the petiole. Do not mist the plant. Ensure good airflow. Water only at soil level. Apply copper fungicide as a preventive measure. Do not propagate from infected stems.
+Recovery: Week 2-3 — no new spots should form. Week 4-6 — new leaf growth from the top. Full recovery takes 2-3 months.
+
+---
+
+Plant: Fiddle Leaf Fig (Ficus lyrata)
+Problem: Edema
+Symptoms: Small reddish-brown spots on new leaves, raised bumps on undersides of leaves, spots do not spread like bacterial infection
+Cause: Inconsistent watering — the plant absorbs more water than it can transpire, causing cells to burst.
+Treatment: Establish consistent watering schedule. Water when top inch of soil is dry. Ensure good light so the plant can transpire properly. Avoid cold water and drafts.
+Recovery: Existing spots will not disappear but are cosmetic only. New leaves should emerge spot-free within 2-3 weeks of consistent care.
+
+---
+
+Plant: Fiddle Leaf Fig (Ficus lyrata)
+Problem: Root rot
+Symptoms: Dropping leaves, dark brown spots that start at the edges, mushy lower stem, yellowing, stunted growth
+Cause: Overwatering and poor drainage leading to anaerobic soil conditions and fungal root decay.
+Treatment: Remove from pot. Cut away all dark mushy roots, leaving only firm white roots. Repot in well-draining mix. Use a pot only 1-2 inches larger than the root ball. Water sparingly until the plant stabilizes.
+Recovery: Week 1-2 — leaf drop should slow. Week 3-4 — new root growth. Month 2-3 — new leaves emerge.
+
+---
+
+Plant: Peace Lily (Spathiphyllum)
+Problem: Brown leaf tips
+Symptoms: Brown crispy tips on leaves progressing inward, leaf edges browning, overall droopy appearance between waterings
+Cause: Low humidity, minerals in tap water (fluoride, chlorine), overfertilization, or drafty location.
+Treatment: Switch to filtered or distilled water. Increase humidity with a pebble tray or humidifier. Flush soil with distilled water to remove salt buildup. Reduce fertilizer to quarter strength monthly.
+Recovery: Brown tips will not revert. Trim them with clean scissors. New leaves should emerge with healthy tips within 2-4 weeks.
+
+---
+
+Plant: Peace Lily (Spathiphyllum)
+Problem: Yellow leaves
+Symptoms: Older leaves turning uniformly yellow, sometimes with brown spots, plant may look overall droopy
+Cause: Overwatering is the most common cause. Can also be natural aging of oldest leaves, or too much direct light.
+Treatment: Check roots for rot. If healthy, let soil dry out slightly between waterings. Move away from direct sunlight. Remove yellow leaves to redirect energy to healthy growth.
+Recovery: Week 1 — stop watering until top inch is dry. Week 2-3 — new leaves should emerge green and firm.
+
+---
+
+Plant: Snake Plant (Sansevieria trifasciata)
+Problem: Soft mushy leaves
+Symptoms: Leaves becoming translucent and soft at the base, leaves leaning or falling over, brown mushy areas on leaves
+Cause: Overwatering and root rot. Snake plants store water in leaves and are extremely susceptible to excess moisture.
+Treatment: Stop watering immediately. Remove the plant and cut away all rotted roots and affected leaf bases. Allow cuts to callous for 24-48 hours. Repot in fast-draining cactus mix. Water only when soil is completely dry — typically every 2-4 weeks.
+Recovery: Week 1-2 — remaining healthy leaves firm up. Week 4-8 — new pup growth from the base.
+
+---
+
+Plant: Snake Plant (Sansevieria trifasciata)
+Problem: Brown tips
+Symptoms: Tips of leaves turning brown and dry, sometimes with a yellow band below the brown
+Cause: Inconsistent watering, cold damage, or excess fertilizer salts in soil.
+Treatment: Trim brown tips at an angle with sterile scissors. Flush soil to remove salt buildup. Keep away from cold drafts and windows in winter. Water deeply but infrequently.
+Recovery: Trimmed tips will not regrow to a point. New leaves from pups will grow undamaged.
+
+---
+
+Plant: Rubber Plant (Ficus elastica)
+Problem: Leaf drop
+Symptoms: Leaves falling off suddenly, especially lower leaves, remaining leaves may appear limp
+Cause: Sudden environmental change — drafts, temperature shift, relocation, overwatering, or underwatering.
+Treatment: Place in stable environment with consistent temperature (60-80°F). Avoid cold or hot drafts. Check soil moisture — water when top 2 inches are dry. Do not move the plant frequently.
+Recovery: Week 1-2 — leaf drop should stop. Week 3-4 — new leaves push from the top.
+
+---
+
+Plant: Rubber Plant (Ficus elastica)
+Problem: Yellowing lower leaves
+Symptoms: Oldest leaves turning yellow and dropping, new growth appears healthy
+Cause: Natural leaf shedding if limited to 1-2 leaves per month. If accelerating, overwatering or nutrient depletion.
+Treatment: If gradual, no action needed. If multiple leaves, check roots for rot. Feed with balanced fertilizer during growing season. Ensure pot is not too large (excess soil holds water).
+Recovery: Stable plants will push one new leaf from the top for every 1-2 shed from the bottom.
+
+---
+
+Plant: ZZ Plant (Zamioculcas zamiifolia)
+Problem: Yellow leaves
+Symptoms: Individual leaflets turning yellow, sometimes entire stems yellowing from the base
+Cause: Overwatering is the primary cause. ZZ plants have rhizomes that store water and rot easily in wet soil.
+Treatment: Water only when the soil is bone dry — every 2-4 weeks. Remove yellowed stems at soil level. Check rhizomes for mushiness; trim if needed and let dry before replanting.
+Recovery: Week 1-2 — no further yellowing. Month 1-2 — new stems emerge from the rhizome.
+
+---
+
+Plant: Dracaena (Dracaena marginata, fragrans, etc.)
+Problem: Brown leaf tips and edges
+Symptoms: Leaf tips and margins turning brown and crispy, sometimes with yellow bands
+Cause: Fluoride toxicity from tap water, low humidity, or overfertilization. Dracaenas are particularly sensitive to fluoride.
+Treatment: Switch to distilled, filtered, or rainwater. Increase humidity. Flush soil monthly. Reduce fertilizer to half strength during growing season only.
+Recovery: Trim damaged tips. New leaves will grow healthy within 3-4 weeks of corrected care.
+
+---
+
+Plant: Dracaena (Dracaena marginata, fragrans, etc.)
+Problem: Leaf spot disease
+Symptoms: Tan or brown spots with reddish-purple borders on leaves, spots may merge as they enlarge
+Cause: Fusarium leaf spot — a fungal disease favored by wet foliage and warm temperatures.
+Treatment: Remove affected leaves. Keep foliage dry when watering. Improve air circulation. Apply neem oil or copper fungicide preventively. Avoid overhead misting.
+Recovery: Week 2-3 — no new spots. Month 1-2 — healthy new leaf growth.
+
+---
+
+Plant: Calathea / Maranta (Prayer Plants)
+Problem: Crispy brown edges
+Symptoms: Leaf edges turning brown and papery, leaves losing their pattern vibrancy, curling
+Cause: Low humidity (they need 50%+ consistently), tap water minerals, cold drafts, or direct sunlight.
+Treatment: Use a humidifier or group with other plants. Water exclusively with filtered, distilled, or rainwater. Keep away from heating vents and drafty windows. Provide bright indirect light only.
+Recovery: Brown edges are permanent on affected leaves. New leaves emerge healthy within 2-3 weeks with corrected humidity.
+
+---
+
+Plant: Calathea / Maranta (Prayer Plants)
+Problem: Leaves not closing at night
+Symptoms: Leaves remain flat or partially open at night instead of folding upward (nyctinasty)
+Cause: Stress from low humidity, underwatering, too much direct light, or root problems. Healthy calatheas fold their leaves upward every evening.
+Treatment: Increase humidity above 50%. Ensure consistent moisture without waterlogging. Provide medium indirect light. Check roots for health.
+Recovery: Leaf movement should resume within 1-2 weeks of improved conditions.
+
+---
+
+Plant: Alocasia
+Problem: Yellowing and drooping leaves
+Symptoms: Older leaves yellowing rapidly, drooping, plant retains only 2-3 leaves at a time, stems going limp
+Cause: Alocasia naturally sheds old leaves to fund new growth. Excessive yellowing suggests overwatering, cold stress, or dormancy onset.
+Treatment: If winter, reduce watering and accept dormancy — the bulb survives. In growing season, ensure bright indirect light, warmth (65-85°F), and consistent moisture without waterlogging. Feed monthly.
+Recovery: In growing season, each new leaf should unfurl within 2-3 weeks. Dormant bulbs resprout in spring.
+
+---
+
+Plant: Philodendron
+Problem: Root rot
+Symptoms: Yellowing leaves, mushy stem base, roots dark brown and soft instead of white and firm, soil smells sour
+Cause: Overwatering, compacted soil, or pots without drainage. Philodendrons prefer airy soil that dries between waterings.
+Treatment: Unpot, trim dead roots, repot in chunky aroid mix (orchid bark, perlite, coco coir). Water only when top 2 inches of soil are dry. Ensure drainage.
+Recovery: Week 1-2 — leaf yellowing stops. Week 3-4 — new root growth. Month 2 — vigorous new leaf production.
+
+---
+
+Plant: Philodendron
+Problem: Leggy growth with small leaves
+Symptoms: Long gaps between leaves on stems, new leaves much smaller than older ones, stems reaching toward light
+Cause: Insufficient light causing etiolation. Philodendrons stretch toward available light.
+Treatment: Move to brighter indirect light. Prune leggy stems to encourage branching — each cut point will produce 1-2 new growth points. Propagate cut stems in water.
+Recovery: New growth at cut points within 2-4 weeks. Leaves will gradually increase in size with better light.
+
+---
+
+Plant: Anthurium
+Problem: Brown flower spadix and spadix discoloration
+Symptoms: Flower spadix (the "spike") turning brown, spathe (colored "petal") fading or browning, fewer new flowers
+Cause: Natural aging of individual flowers (each lasts 6-8 weeks). Premature fading from low humidity, overfertilizing, or insufficient light.
+Treatment: Cut spent flowers at the base to redirect energy. Ensure bright indirect light. Maintain 50%+ humidity. Feed with phosphorus-rich fertilizer every 6-8 weeks during growing season.
+Recovery: New flower buds should appear every 6-10 weeks with proper light and feeding.
+
+---
+
+Plant: Anthurium
+Problem: Yellow leaves with brown spots
+Symptoms: Leaves turning yellow with irregular brown spots, leaf tips browning, overall decline
+Cause: Bacterial blight (Xanthomonas) or overwatering. Bacterial blight spreads via water and contaminated tools.
+Treatment: Remove infected leaves immediately. Avoid misting. Water at soil level only. Improve air circulation. Isolate the plant. Disinfect tools with rubbing alcohol between plants.
+Recovery: Week 2-3 — no new lesions. Month 1-2 — healthy new leaves emerge.
+
+---
+
+Plant: Orchid (Phalaenopsis)
+Problem: Root rot
+Symptoms: Roots turning brown, mushy, or hollow instead of firm green/silver, yellowing leaves, flowers dropping early, wobbling in pot
+Cause: Overwatering or potting in decomposed media that retains too much moisture. Orchid roots need air circulation.
+Treatment: Remove from pot. Cut all dead roots (brown, hollow, mushy) with sterile scissors. Dust cuts with cinnamon (natural fungicide). Repot in fresh orchid bark mix. Water only when roots turn silver (every 7-10 days). Ensure pot has ventilation holes.
+Recovery: Month 1 — new green root tips appear. Month 2-3 — new leaf growth. Month 4-6 — potential new flower spike.
+
+---
+
+Plant: Orchid (Phalaenopsis)
+Problem: Yellowing leaves from the base
+Symptoms: Bottom leaf turns yellow and eventually falls off, one leaf at a time, upper leaves remain healthy
+Cause: Natural leaf cycling — orchids shed 1-2 old leaves per year as new ones grow from the crown. Rapid yellowing suggests overwatering.
+Treatment: If single leaf and slow, no action needed. If multiple or rapid, reduce watering. Check roots for rot. Ensure proper light and temperature.
+Recovery: Natural process. Each new leaf takes 2-3 months to fully develop.
