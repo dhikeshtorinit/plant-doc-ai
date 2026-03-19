@@ -27,6 +27,45 @@ API_BASE = os.environ.get("PLANTDOC_API_BASE", "http://localhost:8000")
 
 st.set_page_config(page_title="PlantDoc AI", page_icon="🌿", layout="centered")
 
+# ---------------------------------------------------------------------------
+# Demo-level password protection (Streamlit secrets)
+# ---------------------------------------------------------------------------
+
+def check_password() -> bool:
+    """Require a password (stored in `st.secrets["APP_PASSWORD"]`) for demo access."""
+    # Track authentication across reruns.
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+
+    # Already authenticated: do not render login UI.
+    if st.session_state.authenticated:
+        return True
+
+    # Not authenticated yet: render login UI.
+    st.title("PlantDoc AI Login")
+    password = st.text_input("Password", type="password")
+
+    # Fetch the expected password from Streamlit secrets.
+    if "APP_PASSWORD" not in st.secrets:
+        st.error("APP_PASSWORD is not configured in Streamlit secrets.")
+        return False
+
+    expected_password = st.secrets["APP_PASSWORD"]
+
+    if password:
+        if password == expected_password:
+            st.session_state.authenticated = True
+            st.rerun()
+        else:
+            st.error("Incorrect password. Please try again.")
+
+    return False
+
+
+# Gate: ensure the rest of the app does not render until authenticated.
+if not check_password():
+    st.stop()
+
 
 # ---------------------------------------------------------------------------
 # Session state
