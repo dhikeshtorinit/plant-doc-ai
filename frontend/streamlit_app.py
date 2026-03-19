@@ -27,6 +27,65 @@ API_BASE = os.environ.get("PLANTDOC_API_BASE", "http://localhost:8000")
 
 st.set_page_config(page_title="PlantDoc AI", page_icon="🌿", layout="centered")
 
+# Green buttons app-wide (overrides default primary / theme red or blue accents).
+_BUTTON_GREEN = "#2E7D32"
+_BUTTON_GREEN_HOVER = "#1B5E20"
+_BUTTON_GREEN_BORDER = "#1B5E20"
+st.markdown(
+    f"""
+    <style>
+        /*
+         * Green ONLY for explicit primary buttons.
+         * Avoid :not(secondary) — many Streamlit builds omit baseButton-secondary,
+         * so secondary "Start Over" was still forced green.
+         */
+        div[data-testid="stButton"] > button[data-testid="baseButton-primary"],
+        div[data-testid="stButton"] > button[kind="primary"],
+        div[data-testid="stFormSubmitButton"] > button {{
+            background-color: {_BUTTON_GREEN} !important;
+            color: #ffffff !important;
+            border: 1px solid {_BUTTON_GREEN_BORDER} !important;
+        }}
+        div[data-testid="stButton"] > button[data-testid="baseButton-primary"]:hover,
+        div[data-testid="stButton"] > button[kind="primary"]:hover,
+        div[data-testid="stFormSubmitButton"] > button:hover {{
+            background-color: {_BUTTON_GREEN_HOVER} !important;
+            color: #ffffff !important;
+            border-color: #145214 !important;
+        }}
+        div[data-testid="stButton"] > button[data-testid="baseButton-primary"]:focus,
+        div[data-testid="stButton"] > button[kind="primary"]:focus,
+        div[data-testid="stFormSubmitButton"] > button:focus {{
+            box-shadow: 0 0 0 0.2rem rgba(46, 125, 50, 0.45) !important;
+        }}
+        div[data-testid="stDownloadButton"] > button {{
+            background-color: {_BUTTON_GREEN} !important;
+            color: #ffffff !important;
+            border: 1px solid {_BUTTON_GREEN_BORDER} !important;
+        }}
+        div[data-testid="stDownloadButton"] > button:hover {{
+            background-color: {_BUTTON_GREEN_HOVER} !important;
+            color: #ffffff !important;
+        }}
+        /* Start Over (key questions_start_over): neutral + one line */
+        div[class*="st-key-questions_start_over"] button {{
+            background-color: #ffffff !important;
+            color: #1f2937 !important;
+            border: 1px solid #9ca3af !important;
+            white-space: nowrap !important;
+        }}
+        div[class*="st-key-questions_start_over"] button:hover {{
+            background-color: #f9fafb !important;
+            border-color: #6b7280 !important;
+        }}
+        div[class*="st-key-questions_start_over"] button:focus {{
+            box-shadow: 0 0 0 0.2rem rgba(107, 114, 128, 0.35) !important;
+        }}
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # ---------------------------------------------------------------------------
 # Demo-level password protection (Streamlit secrets)
 # ---------------------------------------------------------------------------
@@ -43,17 +102,23 @@ def check_password() -> bool:
 
     # Not authenticated yet: render login UI.
     st.title("PlantDoc AI Login")
-    password = st.text_input("Password", type="password")
 
-    # Fetch the expected password from Streamlit secrets.
     if "APP_PASSWORD" not in st.secrets:
         st.error("APP_PASSWORD is not configured in Streamlit secrets.")
         return False
 
     expected_password = st.secrets["APP_PASSWORD"]
 
-    if password:
-        if password == expected_password:
+    # st.form: pressing Enter in the password field submits the form (same as Continue).
+    with st.form("plantdoc_login", clear_on_submit=False):
+        password = st.text_input("Password", type="password")
+        submitted = st.form_submit_button("Continue", type="primary", use_container_width=True)
+
+    if submitted:
+        entered = (password or "").strip()
+        if not entered:
+            st.warning("Enter a password, then press Continue or Enter.")
+        elif entered == str(expected_password).strip():
             st.session_state.authenticated = True
             st.rerun()
         else:
@@ -291,83 +356,88 @@ elif st.session_state.phase == "questions":
         answer = st.text_input(q, key=f"q_{i}", placeholder="Your answer...")
         answers.append(answer)
 
-    col_submit, col_reset = st.columns([1, 1])
+    # Buttons in columns; progress UI below uses full page width (not trapped in narrow column).
+    col_submit, _col_spacer, col_reset = st.columns([2, 4, 2])
     with col_submit:
-        if st.button("Get Diagnosis", type="primary"):
-            if not any(answers):
-                st.warning("Please answer at least one question.")
-            else:
-                progress_placeholder = st.empty()
-                step_order = ["diagnosis", "web_search", "rediagnosis", "care_plan"]
-                steps: dict[str, str] = {}
-
-                def render_progress():
-                    if not steps:
-                        progress_placeholder.markdown("**Generating diagnosis...**")
-                        return
-                    lines = []
-                    for step in step_order:
-                        if step not in steps:
-                            continue
-                        lines.append(f"✓ **{step.replace('_', ' ').title()}:** {steps[step]}")
-                    progress_placeholder.markdown("\n\n".join(lines))
-
-                try:
-                    resp = requests.post(
-                        f"{API_BASE}/diagnose/stream",
-                        json={
-                            "session_id": st.session_state.session_id,
-                            "answers": answers,
-                        },
-                        timeout=120,
-                        stream=True,
-                    )
-                    resp.raise_for_status()
-
-                    result = None
-                    for line in resp.iter_lines(decode_unicode=True):
-                        if not line:
-                            continue
-                        try:
-                            event = json.loads(line)
-                        except json.JSONDecodeError:
-                            continue
-
-                        if event.get("type") == "progress":
-                            step = event.get("step", "unknown")
-                            msg = event.get("message", "")
-                            steps[step] = msg
-                            render_progress()
-
-                        elif event.get("type") == "complete":
-                            result = event.get("diagnosis")
-                            if event.get("reasoning_trace") is not None:
-                                st.session_state.reasoning_trace = event["reasoning_trace"]
-                            break
-
-                        elif event.get("type") == "error":
-                            progress_placeholder.empty()
-                            st.error(f"Diagnosis failed: {event.get('message', 'Unknown error')}")
-                            st.stop()
-
-                    progress_placeholder.empty()
-
-                    if result is not None:
-                        st.session_state.diagnosis = result
-                        st.session_state.phase = "result"
-                        st.rerun()
-                    else:
-                        st.error("No response received from the server.")
-                except requests.RequestException as e:
-                    progress_placeholder.empty()
-                    st.error(f"Failed to connect to the backend: {e}")
-                except Exception as e:
-                    progress_placeholder.empty()
-                    st.error(f"Diagnosis failed: {e}")
+        get_diagnosis = st.button("Get Diagnosis", type="primary")
     with col_reset:
-        if st.button("Start Over"):
+        # NBSP keeps "Start" + "Over" from breaking across lines if width is tight
+        if st.button("Start\u00a0Over", type="secondary", key="questions_start_over"):
             reset()
             st.rerun()
+
+    progress_placeholder = st.empty()
+
+    if get_diagnosis:
+        if not any(answers):
+            st.warning("Please answer at least one question.")
+        else:
+            step_order = ["diagnosis", "web_search", "rediagnosis", "care_plan"]
+            steps: dict[str, str] = {}
+
+            def render_progress() -> None:
+                if not steps:
+                    progress_placeholder.markdown("**Generating diagnosis...**")
+                    return
+                lines = []
+                for step in step_order:
+                    if step not in steps:
+                        continue
+                    lines.append(f"✓ **{step.replace('_', ' ').title()}:** {steps[step]}")
+                progress_placeholder.markdown("\n\n".join(lines))
+
+            try:
+                resp = requests.post(
+                    f"{API_BASE}/diagnose/stream",
+                    json={
+                        "session_id": st.session_state.session_id,
+                        "answers": answers,
+                    },
+                    timeout=120,
+                    stream=True,
+                )
+                resp.raise_for_status()
+
+                result = None
+                for line in resp.iter_lines(decode_unicode=True):
+                    if not line:
+                        continue
+                    try:
+                        event = json.loads(line)
+                    except json.JSONDecodeError:
+                        continue
+
+                    if event.get("type") == "progress":
+                        step = event.get("step", "unknown")
+                        msg = event.get("message", "")
+                        steps[step] = msg
+                        render_progress()
+
+                    elif event.get("type") == "complete":
+                        result = event.get("diagnosis")
+                        if event.get("reasoning_trace") is not None:
+                            st.session_state.reasoning_trace = event["reasoning_trace"]
+                        break
+
+                    elif event.get("type") == "error":
+                        progress_placeholder.empty()
+                        st.error(f"Diagnosis failed: {event.get('message', 'Unknown error')}")
+                        st.stop()
+
+                progress_placeholder.empty()
+
+                if result is not None:
+                    st.session_state.diagnosis = result
+                    st.session_state.phase = "result"
+                    st.rerun()
+                else:
+                    st.error("No response received from the server.")
+            except requests.RequestException as e:
+                progress_placeholder.empty()
+                st.error(f"Failed to connect to the backend: {e}")
+            except Exception as e:
+                progress_placeholder.empty()
+                st.error(f"Diagnosis failed: {e}")
 
 
 # ---------------------------------------------------------------------------
