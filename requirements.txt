@@ -1,0 +1,25 @@
+# API server
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+python-multipart>=0.0.9
+
+# Frontend
+streamlit>=1.28,<2
+
+# Agent / LLM
+langchain>=0.3
+langchain-openai>=0.2
+langchain-chroma>=0.2
+langchain-text-splitters>=0.3
+langgraph>=0.2
+openai>=1.0
+
+# Vector store & config
+chromadb>=0.5
+pydantic>=2
+pydantic-settings>=2
+python-dotenv>=1.0
+
+# Media & optional tools
+pillow>=10
+tavily-python>=0.5

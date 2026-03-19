@@ -1,0 +1,373 @@
+"""Streamlit frontend for PlantDoc AI."""
+
+from __future__ import annotations
+
+import json
+import os
+import re
+import requests
+import streamlit as st
+
+
+def _split_recovery_timeline(text: str) -> list[str]:
+    """Split timeline into week chunks (Week 1..., Week 1-2..., etc.) or by newlines."""
+    if not text or not text.strip():
+        return []
+    t = text.strip()
+    parts = re.split(r"\s+(?=Week\s*\d)", t, flags=re.IGNORECASE)
+    parts = [p.strip() for p in parts if p.strip()]
+    if len(parts) > 1:
+        return parts
+    if "\n" in t:
+        return [ln.strip() for ln in t.split("\n") if ln.strip()]
+    return [t]
+
+# Backend URL: set PLANTDOC_API_BASE in env for deployment (e.g. https://api.yourdomain.com)
+API_BASE = os.environ.get("PLANTDOC_API_BASE", "http://localhost:8000")
+
+st.set_page_config(page_title="PlantDoc AI", page_icon="🌿", layout="centered")
+
+
+# ---------------------------------------------------------------------------
+# Session state
+# ---------------------------------------------------------------------------
+
+if "phase" not in st.session_state:
+    st.session_state.phase = "upload"
+if "session_id" not in st.session_state:
+    st.session_state.session_id = None
+if "analysis" not in st.session_state:
+    st.session_state.analysis = None
+if "diagnosis" not in st.session_state:
+    st.session_state.diagnosis = None
+if "reasoning_trace" not in st.session_state:
+    st.session_state.reasoning_trace = None
+if "trace_sidebar_open" not in st.session_state:
+    st.session_state.trace_sidebar_open = False
+
+
+def reset() -> None:
+    st.session_state.phase = "upload"
+    st.session_state.session_id = None
+    st.session_state.analysis = None
+    st.session_state.diagnosis = None
+    st.session_state.reasoning_trace = None
+    st.session_state.trace_sidebar_open = False
+
+
+# ---------------------------------------------------------------------------
+# Header + trace sidebar
+# ---------------------------------------------------------------------------
+
+def _render_trace_sidebar() -> None:
+    trace = st.session_state.reasoning_trace
+    if not trace:
+        return
+    if not st.session_state.trace_sidebar_open:
+        return
+    with st.sidebar:
+        st.markdown("### 📋 Reasoning trace")
+        st.caption("Full pipeline steps (vision → RAG → diagnosis → care plan).")
+        if st.button("Close panel", key="close_trace_sidebar"):
+            st.session_state.trace_sidebar_open = False
+            st.rerun()
+        st.divider()
+        trace_json = json.dumps(trace, indent=2, default=str)
+        st.download_button(
+            "Download trace (JSON)",
+            data=trace_json,
+            file_name="plantdoc_trace.json",
+            mime="application/json",
+            key="dl_trace",
+        )
+        with st.container(height=600):
+            for i, entry in enumerate(trace):
+                step = entry.get("step", "?")
+                ts = entry.get("timestamp", "")
+                st.markdown(f"**{i + 1}. `{step}`**  \n_{ts}_")
+                st.json(entry.get("data", {}))
+                st.divider()
+
+
+_render_trace_sidebar()
+
+_h1, _h2 = st.columns([4, 1])
+with _h1:
+    st.title("🌿 PlantDoc AI")
+    st.caption("Upload a photo of your plant and get an AI-powered health diagnosis.")
+with _h2:
+    st.markdown("<div style='height:28px'></div>", unsafe_allow_html=True)
+    if st.session_state.reasoning_trace:
+        if st.button("📋 Full trace", key="open_trace_top", help="Open sidebar with full reasoning trace"):
+            st.session_state.trace_sidebar_open = True
+            st.rerun()
+
+
+# ---------------------------------------------------------------------------
+# Phase 1 — Upload and analyze
+# ---------------------------------------------------------------------------
+
+if st.session_state.phase == "upload":
+    uploaded = st.file_uploader(
+        "Upload a plant photo",
+        type=["jpg", "jpeg", "png", "webp"],
+        key="uploader",
+    )
+    description = st.text_input(
+        "Describe what you're seeing (optional)",
+        placeholder="e.g. The leaves are turning yellow and drooping",
+    )
+
+    if uploaded and st.button("Analyze Plant", type="primary"):
+        st.session_state.reasoning_trace = None
+        progress_placeholder = st.empty()
+        step_order = ["vision", "retrieval", "web_search", "questions"]
+        steps: dict[str, str] = {}
+
+        def render_progress():
+            if not steps:
+                progress_placeholder.markdown("**Analyzing your plant...**")
+                return
+            lines = []
+            for step in step_order:
+                if step not in steps:
+                    continue
+                lines.append(f"✓ **{step.replace('_', ' ').title()}:** {steps[step]}")
+            progress_placeholder.markdown("\n\n".join(lines))
+
+        try:
+            files = {"image": (uploaded.name, uploaded.getvalue(), uploaded.type)}
+            data = {"description": description}
+            resp = requests.post(
+                f"{API_BASE}/analyze/stream",
+                files=files,
+                data=data,
+                timeout=120,
+                stream=True,
+            )
+            resp.raise_for_status()
+
+            result = None
+            for line in resp.iter_lines(decode_unicode=True):
+                if not line:
+                    continue
+                try:
+                    event = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+
+                if event.get("type") == "progress":
+                    step = event.get("step", "unknown")
+                    msg = event.get("message", "")
+                    steps[step] = msg
+                    render_progress()
+
+                elif event.get("type") == "complete":
+                    result = event
+                    break
+
+                elif event.get("type") == "error":
+                    progress_placeholder.empty()
+                    st.error(f"Analysis failed: {event.get('message', 'Unknown error')}")
+                    st.stop()
+
+            progress_placeholder.empty()
+
+            if result is None:
+                st.error("No response received from the server.")
+                st.stop()
+
+            rt = result.get("reasoning_trace")
+            if rt is not None:
+                st.session_state.reasoning_trace = rt
+
+            if not result.get("is_plant", True):
+                description_text = result.get(
+                    "description",
+                    "Please upload a photo of a real plant to get a diagnosis.",
+                )
+                st.markdown(
+                    f"""<div style="background: #FFF8E7; border-left: 4px solid #FFB020;
+                    border-radius: 8px; padding: 20px 24px; margin: 12px 0;">
+                    <span style="font-size: 28px; vertical-align: middle;">🌱</span>
+                    <strong style="font-size: 16px; margin-left: 8px;">Not a real plant</strong>
+                    <p style="margin: 10px 0 0; color: #444; font-size: 15px; line-height: 1.5;">
+                    {description_text}</p></div>""",
+                    unsafe_allow_html=True,
+                )
+            else:
+                st.session_state.session_id = result["session_id"]
+                st.session_state.analysis = {
+                    "is_plant": True,
+                    "session_id": result["session_id"],
+                    "plant_type_guess": result.get("plant_type_guess", ""),
+                    "symptoms_detected": result.get("symptoms_detected", []),
+                    "confidence": result.get("confidence", 0.0),
+                    "description": result.get("description", ""),
+                    "diagnostic_questions": result.get("diagnostic_questions", []),
+                }
+                st.session_state.phase = "questions"
+                st.rerun()
+        except requests.RequestException as e:
+            progress_placeholder.empty()
+            st.error(f"Failed to connect to the backend: {e}")
+        except Exception as e:
+            progress_placeholder.empty()
+            st.error(f"Analysis failed: {e}")
+
+
+# ---------------------------------------------------------------------------
+# Phase 2 — Show analysis & ask questions
+# ---------------------------------------------------------------------------
+
+elif st.session_state.phase == "questions":
+    analysis = st.session_state.analysis
+
+    st.subheader("Initial Analysis")
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.metric("Plant Type", analysis.get("plant_type_guess", "Unknown"))
+    with col2:
+        confidence = analysis.get("confidence", 0)
+        st.metric("Confidence", f"{confidence:.0%}")
+
+    symptoms = analysis.get("symptoms_detected", [])
+    if symptoms:
+        st.write("**Symptoms detected:**")
+        for s in symptoms:
+            st.write(f"- {s}")
+
+    if analysis.get("description"):
+        with st.expander("Detailed description"):
+            st.write(analysis["description"])
+
+    st.divider()
+    st.subheader("Diagnostic Questions")
+    st.write("Please answer these questions to help refine the diagnosis:")
+
+    questions = analysis.get("diagnostic_questions", [])
+    answers = []
+    for i, q in enumerate(questions):
+        answer = st.text_input(q, key=f"q_{i}", placeholder="Your answer...")
+        answers.append(answer)
+
+    col_submit, col_reset = st.columns([1, 1])
+    with col_submit:
+        if st.button("Get Diagnosis", type="primary"):
+            if not any(answers):
+                st.warning("Please answer at least one question.")
+            else:
+                progress_placeholder = st.empty()
+                step_order = ["diagnosis", "web_search", "rediagnosis", "care_plan"]
+                steps: dict[str, str] = {}
+
+                def render_progress():
+                    if not steps:
+                        progress_placeholder.markdown("**Generating diagnosis...**")
+                        return
+                    lines = []
+                    for step in step_order:
+                        if step not in steps:
+                            continue
+                        lines.append(f"✓ **{step.replace('_', ' ').title()}:** {steps[step]}")
+                    progress_placeholder.markdown("\n\n".join(lines))
+
+                try:
+                    resp = requests.post(
+                        f"{API_BASE}/diagnose/stream",
+                        json={
+                            "session_id": st.session_state.session_id,
+                            "answers": answers,
+                        },
+                        timeout=120,
+                        stream=True,
+                    )
+                    resp.raise_for_status()
+
+                    result = None
+                    for line in resp.iter_lines(decode_unicode=True):
+                        if not line:
+                            continue
+                        try:
+                            event = json.loads(line)
+                        except json.JSONDecodeError:
+                            continue
+
+                        if event.get("type") == "progress":
+                            step = event.get("step", "unknown")
+                            msg = event.get("message", "")
+                            steps[step] = msg
+                            render_progress()
+
+                        elif event.get("type") == "complete":
+                            result = event.get("diagnosis")
+                            if event.get("reasoning_trace") is not None:
+                                st.session_state.reasoning_trace = event["reasoning_trace"]
+                            break
+
+                        elif event.get("type") == "error":
+                            progress_placeholder.empty()
+                            st.error(f"Diagnosis failed: {event.get('message', 'Unknown error')}")
+                            st.stop()
+
+                    progress_placeholder.empty()
+
+                    if result is not None:
+                        st.session_state.diagnosis = result
+                        st.session_state.phase = "result"
+                        st.rerun()
+                    else:
+                        st.error("No response received from the server.")
+                except requests.RequestException as e:
+                    progress_placeholder.empty()
+                    st.error(f"Failed to connect to the backend: {e}")
+                except Exception as e:
+                    progress_placeholder.empty()
+                    st.error(f"Diagnosis failed: {e}")
+    with col_reset:
+        if st.button("Start Over"):
+            reset()
+            st.rerun()
+
+
+# ---------------------------------------------------------------------------
+# Phase 3 — Show diagnosis
+# ---------------------------------------------------------------------------
+
+elif st.session_state.phase == "result":
+    diag = st.session_state.diagnosis
+
+    st.subheader("Diagnosis")
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.metric("Plant", diag.get("plant_type_guess", "Unknown"))
+    with col2:
+        confidence = diag.get("confidence", 0)
+        color = "🟢" if confidence >= 0.7 else "🟡" if confidence >= 0.4 else "🔴"
+        st.metric("Confidence", f"{color} {confidence:.0%}")
+
+    st.info(diag.get("diagnosis", "No diagnosis available."))
+
+    st.divider()
+    st.subheader("Treatment Plan")
+    for step in diag.get("treatment_plan", []):
+        st.markdown(step)
+
+    if diag.get("recovery_timeline"):
+        st.divider()
+        st.subheader("Recovery Timeline")
+        chunks = _split_recovery_timeline(diag["recovery_timeline"])
+        st.markdown("\n\n".join(chunks))
+
+    if diag.get("warning_signs"):
+        st.divider()
+        st.subheader("⚠️ Warning Signs")
+        for w in diag["warning_signs"]:
+            st.write(f"- {w}")
+
+    st.divider()
+    if st.button("Diagnose Another Plant", type="primary"):
+        reset()
+        st.rerun()
